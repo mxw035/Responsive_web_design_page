@@ -1,0 +1,99 @@
+body {
+    background-color:darkblue;
+    color:white;
+    align-items:center;
+    text-align:center;
+
+}
+main { 
+    background-color:darkblue;
+    color:white;
+    position:relative;
+    top:50px;
+}
+h1 {
+    background-color:darkgoldenrod;
+    color:darkblue;
+    border-radius:12px;
+    text-align:center;
+}
+h2 {
+    background-color:purple;
+    border-radius:12px;
+    text-align:center;
+    
+}
+h3 {
+    background-color:slateblue;
+    border-radius:12px;
+    text-align:center;
+}
+h4 {
+    background-color:crimson;
+    border-radius:12px;
+    text-align:center;
+}
+h5{
+    background-color:seagreen;
+    border-radius:12px;
+    text-align:center;
+}
+h6 {
+    background-color:slategray;
+    border-radius:12px;
+    text-align:center;
+}
+button {
+    background-color:cadetblue;
+    border-radius:12px;
+}
+a{
+    color:white;
+}
+div {
+    background-color:burlywood;
+    color:black;
+    border-radius:12px;
+}
+form{
+    background-color:darkgreen;
+    border-radius:12px;
+}
+nav{
+    background-color:darkred;
+    border-radius:12px;
+    position:fixed;
+    top:15px;
+    left:30%;
+}
+
+header{
+    background-color:goldenrod;
+    border-radius:12px;
+}
+section {
+    background-color:maroon;
+    border-radius:12px
+}
+form {
+    background-color:darkmagenta;
+    border-radisu:12px;
+    }
+code {
+    background-color:darkcyan;
+    color:white;
+}
+ul {
+    background-color:slate;
+    list-style-type:none;
+    color:white;
+}
+li {
+    background-color:slateblue;
+    list-style-type:none;
+    color:white;
+}
+#flexbox {
+    display:flex;
+    flex-direction:row;
+}

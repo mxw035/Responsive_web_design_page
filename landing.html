@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width" intial-scale="1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <title>Landing Page</title>
+
+    </head>
+    <body>
+        
+          <nav>
+              <button>
+                  <a href="tribute.html">
+                      About Luna
+                  </a>
+              </button>
+              <button>
+                  <a href="survey.html">
+                       Luna Triva
+                  </a>
+              </button>
+              <button>
+                  <a href="landing.html">
+                      Quibbler
+                  </a>
+              </button>
+              <button>
+                  <a href="documentation.html">
+                      Behind the Sences
+                  </a>
+              </button>
+              <button>
+                  <a href="portfolio.html">
+                      Portfolio
+                  </a>
+              </button>
+              <button>
+                  <a href="index.html">
+                      Home
+                  </a>
+              </button>
+        </nav>
+        <main style="position:relative; top:75px;">
+            
+        <header>Quibbler Subscription
+
+        <img src="quibbler.jpeg" alt="cover of quibbler magazine" width="auto" height="auto">
+
+            <nav style="position:fixed; top:50px;">
+                <button>
+                    <a href="#box1">One Time</a>
+                </button>
+                <button>
+                    <a href="#box2">Six Month Subscription</a>
+                </button>
+                <button>
+                    <a href="#box3">Yearly Subcription</a>
+                </button>
+            </nav>
+        </header>
+        <div>
+            <h2>Video The Quibbler</h2>
+            <video width="320" height="240" controls>
+                <iframe width="auto" height="auto" src="https://youtu.be/ledH99mG4uI">
+                </iframe>
+            </video>
+            <br>
+            <p>
+                Video not playing?
+                <a href="https://youtu.be/ledH99mG4uI">Not playing Click here</a>
+            </p>
+        </div>
+        <form>
+        <div class="flex-box">
+            <div id="box1">
+                <h1>Once</h1>
+                <p>Get this current issue</p>
+                <p>Price: 20$</p>
+                <label for="once">
+                    One Time
+                    <input type="radio" name="choice" value="once">
+                </label>
+            </div>
+            <div id="box2">
+                <h1>6 Months</h1>
+                <p>Get current issue free and the 6 following issues either buy mail or email.</p>
+                <p>Price Email:40$ Mail: 60$</p>
+                <label for="month">
+                    6 Months
+                    <input type="radio" name="choice" value="month">
+                </label>
+            </div>
+            <div id="box3">
+                <h1>12 Months</h1>
+                <p>Get current issue free and the 12 following issues either buy mail or email.</p>
+                <p>Price Email:70$ Mail: 90$</p>
+                <label for="year">Year
+                    <input type="radio" name="choice" value="year">
+                </label>
+            </div>
+            <input id="email" name="email" placeholder="Email" type="email">
+            <input id="submit" type="hidden">
+                <button><a href="https://www.freecodecamp.org/email-submit">Submit</a>
+                </button>
+            </input>
+            </form>
+
+        </div>
+        </main>
+    </body>
+</html>
